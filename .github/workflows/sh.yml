@@ -18,4 +18,4 @@ jobs:
         USER_PASS: ${{ secrets.USER_PASS }}
      - name: Don't kill instace
        if: ${{ failure() }}
-       run: sleep 9999h
+       run: sleep 6h
