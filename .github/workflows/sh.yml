@@ -1,6 +1,6 @@
 name: SSH
 on: push
-1
+
 jobs:
   build:
     runs-on: ubuntu-latest
